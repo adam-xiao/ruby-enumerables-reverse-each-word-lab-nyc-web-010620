@@ -15,8 +15,8 @@ def reverse_each_word(sentence)
 
   sentence
   reverse_each_word.each do |result|
-    reverse_each_word.each do |result|
-      puts "#{result}"
+
+      puts "#{result.reverse.split.reverse.join(" ")}"
   end
 
 end
