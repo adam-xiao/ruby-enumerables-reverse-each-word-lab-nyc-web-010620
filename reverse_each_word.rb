@@ -17,6 +17,6 @@ reversed_word_array = sentence.reverse.split
 
 reversed_word_array.each do |word|
   puts "#{word.reverse}"
-
+end
 
 end
