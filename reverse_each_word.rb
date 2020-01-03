@@ -13,8 +13,10 @@ def reverse_each_word(sentence)
 #      puts reversed_words_string
 #    end
 
-sentence.reverse.split
+reversed_word_array = sentence.reverse.split
 
+reversed_word_array.each do |word|
+  puts "#{word.reverse}"
 
 
 end
