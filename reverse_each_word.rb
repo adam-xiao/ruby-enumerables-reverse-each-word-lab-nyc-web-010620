@@ -3,12 +3,12 @@ def reverse_each_word(sentence)
   reversed_words_array = []
   sentence_array.each do |reversal|
   x = 0
-
+  reversed_words_string = ""
     while x < sentence_array.length do
       reversed_words_array << "#{reversal[x]}".reverse
       x += 1
     end
     new_sentence = reversed_words_array.join(" ")
   end
-  puts new_sentence
+  
 end
