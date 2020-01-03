@@ -13,9 +13,10 @@ def reverse_each_word(sentence)
 #      puts reversed_words_string
 #    end
 
-  sentence.reverse.split.reverse.join(" ")
-end
+  sentence
+  reverse_each_word.each do |result|
+    reverse_each_word.each do |result|
+      puts "#{result}"
+  end
 
-reverse_each_word.each do |result|
-  puts "#{result}"
 end
