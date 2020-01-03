@@ -20,5 +20,4 @@ end
   reverse_each_word.each do |arr|
     "#{arr.reverse.join(" ")}"
     puts arr
-  end
 end
