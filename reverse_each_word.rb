@@ -18,3 +18,4 @@ end
 
 reverse_each_word.each do |result|
   puts "#{result}"
+end
