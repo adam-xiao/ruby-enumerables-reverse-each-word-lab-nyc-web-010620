@@ -14,5 +14,5 @@ def reverse_each_word(sentence)
 #    end
 
   sentence.reverse.split.reverse.join(" ")
-  reverse_each_word.each { |x| puts "#{x}" }
+
 end
