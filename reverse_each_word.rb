@@ -13,11 +13,6 @@ def reverse_each_word(sentence)
 #      puts reversed_words_string
 #    end
 
-# sentence.reverse.split.reverse.join(" ")
-  sentence.reverse.split
+  sentence.reverse.split.reverse.join(" ")
 end
 
-reverse_each_word.each do |arr|
-    "#{arr.reverse.join(" ")}"
-    puts arr
-end
