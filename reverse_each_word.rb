@@ -14,9 +14,9 @@ def reverse_each_word(sentence)
 #    end
 
 # sentence.reverse.split.reverse.join(" ")
-  sentence.split
+  sentence.reverse.split
   reverse_each_word.each do |arr|
-    arr.reverse.join(" ").split
+    arr.reverse.join(" ")
     puts arr
   end
 end
