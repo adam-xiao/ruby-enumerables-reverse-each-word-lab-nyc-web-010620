@@ -9,5 +9,5 @@ def reverse_each_word(sentence)
     x += 1
     end
   end
-  reversed_words
+  reversed_words_array
 end
