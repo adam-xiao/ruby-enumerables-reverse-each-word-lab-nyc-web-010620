@@ -13,7 +13,7 @@ def reverse_each_word(sentence)
 #      puts reversed_words_string
 #    end
 
-sentence
+sentence.split
 
 end
 
