@@ -8,6 +8,6 @@ def reverse_each_word(sentence)
       reversed_words_array << "#{reversal[x]}".reverse
       x += 1
     end
-    reversed_words_array.join(" ")
+    new_sentence = reversed_words_array.join(" ")
   end
 end
