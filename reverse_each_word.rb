@@ -15,9 +15,6 @@ def reverse_each_word(sentence)
 
 sentence.split
 
-reverse_each_word.each do |result|
-    puts result.reverse.join(" ").reverse
-end
 
 
 end
