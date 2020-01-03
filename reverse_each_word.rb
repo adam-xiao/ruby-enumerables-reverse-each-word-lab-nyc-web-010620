@@ -5,7 +5,7 @@ def reverse_each_word(sentence)
     x = 0
 
     while x < sentence_array.length do
-    reversed_words = "#{reversal[x].reverse()}"
+    reversed_words_array = "#{reversal[x]}.reverse"
     x += 1
     end
   end
