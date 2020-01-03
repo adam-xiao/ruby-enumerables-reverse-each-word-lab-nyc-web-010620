@@ -12,5 +12,12 @@ def reverse_each_word(sentence)
 #      reversed_words_string = reversed_words_array.join(" ")
 #      puts reversed_words_string
 #    end
-  sentence.reverse.split.reverse.join(" ")
+
+# sentence.reverse.split.reverse.join(" ")
+  sentence_array = sentence.split
 end
+
+reverse_each_word.each do |arr|
+  arr.reverse.join(" ").split
+  puts arr
+
