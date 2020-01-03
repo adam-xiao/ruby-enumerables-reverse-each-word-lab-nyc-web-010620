@@ -14,6 +14,7 @@ def reverse_each_word(sentence)
 #    end
 
 reversed_word_array = sentence.split
+reversed_words_string = ""
 
 reversed_word_array.each do |word|
   reversed_words_string = "#{word.reverse}"
