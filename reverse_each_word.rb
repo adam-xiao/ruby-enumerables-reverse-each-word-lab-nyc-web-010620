@@ -20,8 +20,3 @@ def reverse_each_word(sentence)
     puts arr
   end
 end
-
-reverse_each_word.each do |arr|
-  arr.reverse.join(" ").split
-  puts arr
-end
