@@ -12,5 +12,5 @@ def reverse_each_word(sentence)
 #      reversed_words_string = reversed_words_array.join(" ")
 #      puts reversed_words_string
 #    end
-  sentence.reverse.split
+  sentence.reverse.split.reverse
 end
