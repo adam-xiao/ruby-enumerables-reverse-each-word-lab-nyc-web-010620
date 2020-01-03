@@ -15,9 +15,13 @@ def reverse_each_word(sentence)
 
 # sentence.reverse.split.reverse.join(" ")
   sentence_array = sentence.split
+  reverse_each_word.each do |arr|
+    arr.reverse.join(" ").split
+    puts arr
+  end
 end
 
-reverse_each_word(arr).each do |arr|
+reverse_each_word.each do |arr|
   arr.reverse.join(" ").split
   puts arr
 end
